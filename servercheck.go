@@ -21,7 +21,7 @@ func main() {
 	app.Name = "urlcheck"
 	app.Version = "1.0.0"
 	app.Usage = "A utility to check if specified server is running "
-	app.UsageText = "urlcheck [command] [urls ...]"
+	app.UsageText = "checkserver [command] [urls ...]"
 	app.Author = "Shubhanshu Gairola"
 	Flags := []cli.Flag{
 		cli.StringFlag{
